@@ -1,3 +1,9 @@
+instalation
+  go to root directory
+  run "npm install"
+  run "http-server"
+  go to http://localhost:8080/app/
+
 home
   instant rent a car form, news
 
