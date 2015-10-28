@@ -1,0 +1,24 @@
+{
+  "name": "levnyauto",
+  "private": true,
+  "version": "0.0.0",
+  "description": "description",
+  "repository": "https://github.com/repo",
+  "license": "",
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "http-server": "^0.6.1",
+    "jasmine-core": "^2.3.4",
+    "protractor": "^2.1.0",
+    "shelljs": "^0.2.6"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8080 -c-1",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+  }
+}
